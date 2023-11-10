@@ -1,0 +1,35 @@
+.list {
+  list-style-type: none;
+  border-radius: 5px;
+  border: 2px solid #52606d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+.question-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.answerItem {
+  color: #9aa5b1;
+  margin: 4px;
+}
+.line {
+  border: 2px solid #9aa5b1;
+  width: 90%;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
